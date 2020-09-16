@@ -1,3 +1,10 @@
+# about project 
+images gallery with css-grid & responsive desing
+this project using angular - rxjs - ngrx - css
+
+# online link: 
+https://images-gallery-grid.web.app/
+
 # ImageGrid
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
