@@ -1,6 +1,6 @@
 # about project 
 images gallery with css-grid & responsive desing
-this project using angular - rxjs - ngrx - css
+this project using angular, rxjs, ngrx, css
 
 # online link: 
 https://images-gallery-grid.web.app/
