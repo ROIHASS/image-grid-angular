@@ -1,0 +1,8 @@
+<div>
+    <button (click)="getPrevPage()">Prev</button>
+
+    <input [ngModel]='getPage()' (ngModelChange)="setPage($event)" (keyup.enter)="enterPage()" type=" number ">
+
+    <button (click)="getNextPage() ">Next</button>
+    
+</div>

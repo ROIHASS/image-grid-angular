@@ -1,0 +1,6 @@
+<div class="gallery">
+    <app-image *ngFor="let image of images$ | async; index as i ;" [image]='image' [i]="i" class="item"
+        (click)="showModal(i)"></app-image>
+</div>
+
+<app-show-image-modal *ngIf="show"></app-show-image-modal>

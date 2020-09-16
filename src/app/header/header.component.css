@@ -1,0 +1,13 @@
+div {
+    background-color: #e2c3ff;
+    justify-content: center;
+    font-family: monospace;
+    align-items: center;
+    margin-bottom: 13px;
+    font-style: oblique;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 21px;
+    display: flex;
+    height: 40px;
+}

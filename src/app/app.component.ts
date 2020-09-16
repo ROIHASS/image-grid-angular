@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'image-grid';
+
+  @ViewChild('el') el: ElementRef<HTMLDivElement>
+
+  scroll() {
+    this.el.nativeElement.scroll(0,0)
+  }
+
 }

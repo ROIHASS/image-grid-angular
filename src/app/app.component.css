@@ -1,0 +1,13 @@
+.container{
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll{
+    overflow: auto;
+    height: 100vh;
+    scroll-behavior: smooth;
+}

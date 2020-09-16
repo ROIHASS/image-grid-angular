@@ -1,0 +1,15 @@
+<!-- <picture> -->
+<!-- <source media="(min-width:600px)  and (max-width:1200px)" [srcset]="image.urls.regular">
+        <source media="(min-width:1201px)" [srcset]="image.urls.full"> -->
+<!-- <img #img src="{{image.urls.small}}" [alt]="image.description"
+        media="(max-width:600px)"
+        sizes="(max-width:1000) 30vw, 600px">
+    </picture> -->
+
+<img #img (click)=showImage() src="{{image.urls.small}}" [title]="image.alt_description" [alt]="image.alt_description"
+        srcset="{{image.urls.small}} 800w,
+        {{image.urls.regular}} 1000w ,
+        {{image.urls.full}} 1200w" sizes="(max-width: 1000px) 30vw, 400px">
+
+<!-- 
+<img #img src="{{image.urls.small}}" [title]="image.alt_description" [alt]="image.alt_description"> -->

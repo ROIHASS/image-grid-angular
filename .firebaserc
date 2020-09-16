@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "images-gallery-grid"
+  },
+  "targets": {
+    "images-gallery-grid": {
+      "hosting": {
+        "image-grid": [
+          "images-gallery-grid"
+        ]
+      }
+    }
+  }
+}
